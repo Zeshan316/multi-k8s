@@ -14,11 +14,12 @@ function App() {
           <p></p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
+            style={{textDecoration: 'none', pointerEvents: 'none'}}
           >
-            Learn React
+            Fibonacci series with Kubernetes
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
